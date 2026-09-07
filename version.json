@@ -1,5 +1,5 @@
 {
-  "version": "1.2.2",
-  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.2.2/BeefInvoices.exe",
-  "notes": "Invoice list fixes: it never returned paid/owed, so the History tab showed every balance as a dash; and it dated rows by when the record was created here rather than the market or issue date, so everything read as today. The list is now ordered and dated by market date and shows the Wix invoice number."
+  "version": "1.2.3",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.2.3/BeefInvoices.exe",
+  "notes": "Getting an invoice link is no longer treated as read-only. Wix's createInvoicePreviewUrl flips a Draft to Sent - proven on a throwaway invoice - so on a draft it now refuses unless you say that is what you want, and the local status is updated to match instead of silently drifting."
 }
