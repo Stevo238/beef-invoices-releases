@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
-  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.2.0/BeefInvoices.exe",
-  "notes": "Link a hand-entered invoice to the Wix invoice it represents, for invoices raised in the dashboard before this app existed. Payments Wix already holds are matched up rather than re-sent, so linking cannot pay an invoice twice; only genuinely new money is pushed. Refuses to link mismatched totals or an invoice already linked elsewhere. Reading an invoice back now also returns its line items and customer."
+  "version": "1.2.1",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.2.1/BeefInvoices.exe",
+  "notes": "Match Wix's money rounding. Wix rounds each line half DOWN; Python rounds half to even, which put our invoice totals a cent above Wix's on any line with a half-cent - three of seven real invoices. Wix's figure is what the customer is billed, so it is the one we now produce."
 }
