@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
-  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.1.1/BeefInvoices.exe",
-  "notes": "Fixes the Wix payment bridge: Wix requires an id on every payment, so addPayment was rejected by the type checker. The app now sends a stable id per allocation, so retrying a call that timed out re-uses it instead of recording a second payment. Requires republishing the Wix site with the updated http-functions.js."
+  "version": "1.1.2",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.1.2/BeefInvoices.exe",
+  "notes": "Payments now reach Wix. Wix rejects short payment ids with a bare 'Internal issue', so the id is a stable UUID derived from the allocation; Wix enforces uniqueness per invoice, so a retry after a timeout is refused rather than paying twice, and that refusal is now treated as confirmation the money already landed. Verified end to end against a real Wix invoice."
 }
