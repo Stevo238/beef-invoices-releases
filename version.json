@@ -1,0 +1,5 @@
+{
+  "version": "1.0.0",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.0.0/BeefInvoices.exe",
+  "notes": "First release: order parser, sheet pricing with substitutions, invoice history, customers, price list + alias editor, Wix draft push, MCP tools for Claude."
+}
