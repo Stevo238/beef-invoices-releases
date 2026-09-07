@@ -1,5 +1,5 @@
 {
-  "version": "1.2.3",
-  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.2.3/BeefInvoices.exe",
-  "notes": "Getting an invoice link is no longer treated as read-only. Wix's createInvoicePreviewUrl flips a Draft to Sent - proven on a throwaway invoice - so on a draft it now refuses unless you say that is what you want, and the local status is updated to match instead of silently drifting."
+  "version": "1.3.0",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.3.0/BeefInvoices.exe",
+  "notes": "Import an invoice from Wix by pasting its dashboard URL - brings across the line items, customer, issue date, status and anything already paid, and links the two so balances stay in step. Re-importing updates in place rather than duplicating, and never stacks the same payment twice. New Import box on the Money tab."
 }
