@@ -1,5 +1,5 @@
 {
-  "version": "1.1.3",
-  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.1.3/BeefInvoices.exe",
-  "notes": "POST /api/invoices now accepts source_thread_id, source_message_ids and market_date. The MCP tool already took them, so an invoice saved over the web API lost the Gmail thread it came from and could be invoiced a second time."
+  "version": "1.2.0",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.2.0/BeefInvoices.exe",
+  "notes": "Link a hand-entered invoice to the Wix invoice it represents, for invoices raised in the dashboard before this app existed. Payments Wix already holds are matched up rather than re-sent, so linking cannot pay an invoice twice; only genuinely new money is pushed. Refuses to link mismatched totals or an invoice already linked elsewhere. Reading an invoice back now also returns its line items and customer."
 }
