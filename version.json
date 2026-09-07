@@ -1,5 +1,5 @@
 {
-  "version": "1.1.2",
-  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.1.2/BeefInvoices.exe",
-  "notes": "Payments now reach Wix. Wix rejects short payment ids with a bare 'Internal issue', so the id is a stable UUID derived from the allocation; Wix enforces uniqueness per invoice, so a retry after a timeout is refused rather than paying twice, and that refusal is now treated as confirmation the money already landed. Verified end to end against a real Wix invoice."
+  "version": "1.1.3",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.1.3/BeefInvoices.exe",
+  "notes": "POST /api/invoices now accepts source_thread_id, source_message_ids and market_date. The MCP tool already took them, so an invoice saved over the web API lost the Gmail thread it came from and could be invoiced a second time."
 }
