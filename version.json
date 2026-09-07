@@ -1,5 +1,5 @@
 {
-  "version": "1.2.1",
-  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.2.1/BeefInvoices.exe",
-  "notes": "Match Wix's money rounding. Wix rounds each line half DOWN; Python rounds half to even, which put our invoice totals a cent above Wix's on any line with a half-cent - three of seven real invoices. Wix's figure is what the customer is billed, so it is the one we now produce."
+  "version": "1.2.2",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.2.2/BeefInvoices.exe",
+  "notes": "Invoice list fixes: it never returned paid/owed, so the History tab showed every balance as a dash; and it dated rows by when the record was created here rather than the market or issue date, so everything read as today. The list is now ordered and dated by market date and shows the Wix invoice number."
 }
