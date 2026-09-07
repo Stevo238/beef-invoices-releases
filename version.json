@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
-  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.1.0/BeefInvoices.exe",
-  "notes": "Money loop: record payments and apply them oldest-invoice-first with the remainder left as credit; new Money tab showing who owes what; read invoice status, number and balance back from Wix; get a customer-viewable invoice link; send an invoice by email (confirmation required). Order emails can be tagged with their Gmail thread so the same order cannot be invoiced twice. Sales reports by product/category/customer/market, customer history and repeat-last-order, and price/alias edits from Claude. Fixes: pushing the same invoice twice no longer creates a second Wix draft."
+  "version": "1.1.1",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.1.1/BeefInvoices.exe",
+  "notes": "Fixes the Wix payment bridge: Wix requires an id on every payment, so addPayment was rejected by the type checker. The app now sends a stable id per allocation, so retrying a call that timed out re-uses it instead of recording a second payment. Requires republishing the Wix site with the updated http-functions.js."
 }
