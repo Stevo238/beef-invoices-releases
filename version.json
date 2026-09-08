@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
-  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.3.0/BeefInvoices.exe",
-  "notes": "Import an invoice from Wix by pasting its dashboard URL - brings across the line items, customer, issue date, status and anything already paid, and links the two so balances stay in step. Re-importing updates in place rather than duplicating, and never stacks the same payment twice. New Import box on the Money tab."
+  "version": "1.4.0",
+  "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.4.0/BeefInvoices.exe",
+  "notes": "Two-way reconcile with Wix. A payment recorded, or an amount changed, in the Wix dashboard used to diverge from these books silently. Refresh now compares against Wix and pulls payments across, matching them BY ID so the same money can never be imported twice and money we already pushed is not re-imported. Payments deleted in Wix and totals edited there are reported rather than applied."
 }
