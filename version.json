@@ -1,5 +1,5 @@
 {
   "version": "1.4.0",
   "url": "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.4.0/BeefInvoices.exe",
-  "notes": "Two-way reconcile with Wix. A payment recorded, or an amount changed, in the Wix dashboard used to diverge from these books silently. Refresh now compares against Wix and pulls payments across, matching them BY ID so the same money can never be imported twice and money we already pushed is not re-imported. Payments deleted in Wix and totals edited there are reported rather than applied."
+  "notes": "Two-way reconcile with Wix: a payment recorded, or an amount changed, in the Wix dashboard used to diverge from these books silently. Refresh now pulls payments across, matching them BY ID so the same money can never be imported twice. Deleted payments and edited totals are reported rather than applied. Also fixes the UI going dead after an update: index.html was cached while app.js was not, so a fresh script bound handlers to a stale page, threw, and took the tabs with it. index.html is now no-cache and a missing element can no longer abort the rest of the UI."
 }
