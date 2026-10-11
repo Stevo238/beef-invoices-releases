@@ -1,6 +1,6 @@
 {
-    "version":  "1.5.1",
-    "url":  "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.5.1/BeefInvoices.exe",
-    "notes":  "Security update (audit 2026-10-10); 1.5.1 fixes the version number the app reports. Saves are refused when another website tries to make them on your behalf. Updates must match a published fingerprint and come from the releases repo. A nightly copy of the database now is saved with the hub backups (kept 60 days) and goes to Google Drive nightly. A few more fields are shown as plain text. Upload size is capped at 10 MB.",
-    "sha256":  "1275746cf5f4d0812e2f4cf454c9d281afc1a811795ec8b17417fd6266e66b74"
+    "version":  "1.5.2",
+    "url":  "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.5.2/BeefInvoices.exe",
+    "notes":  "Works on phones: every table becomes a tidy card per row (invoices, who owes what, customers, the price list), the tabs are one swipeable row, buttons are easier to tap, and the 113 product aliases have a search box.",
+    "sha256":  "d324396ec491d6ef7c31974e8f3e630c856de85f6eb2ed480d5a69fe7889610b"
 }
