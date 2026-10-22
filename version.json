@@ -1,6 +1,6 @@
 {
     "version":  "1.5.3",
-    "url":  "",
+    "url":  "https://github.com/Stevo238/beef-invoices-releases/releases/download/v1.5.3/BeefInvoices.exe",
     "notes":  "Behind the scenes: the app now tells Claude which of its tools only look and which change things, so the Claude app asks before emailing a customer, marking an invoice sent in Wix or pushing payments to Wix.",
     "sha256":  "ddab3eeae5add9ee0d7462c9dbe9a250a155307363d828914406b8fae87fc1c6"
 }
